@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 50px;
+    background-color: #002966;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: #99C2FF;
+}
+
+.list{
+    height: 60vh;
+    margin-top: 110px;
+    width: 35%;
+    display: block;
+    /* justify-content: left; */
+    background-color: #E5F0FF;
+    /* border: 1px solid #002966; */
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.list-input{
+    display: flex;
+}
+
+.input{
+    width: 90%;
+    height: 50px;
+    border-top-left-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+.add{
+    height: 51px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
+    border-top-right-radius: 5px;
+}
+
+.input:hover{
+    border: 1px solid black ;
+}
+
+.add:hover{
+    background-color: greenyellow ;
+    transition: background-color 0.3s ease-out;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 50px;
+   margin-bottom: 3px;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url(to-do-list.png);
+    background-size: contain;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.head{
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+.list-items{
+    height: 423px;
+    max-height: 423px;
+    width: 100%;
+    display: block;
+    overflow-y: auto;
+}
