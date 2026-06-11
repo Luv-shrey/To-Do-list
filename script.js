@@ -62,7 +62,9 @@ function checkTask(checkbox, task){
 function deleteTask(cut, item){
     cut.addEventListener('click', function(){
         item.remove()
+        count--;
     })
+    
 }
 
 
