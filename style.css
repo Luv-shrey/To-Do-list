@@ -97,3 +97,51 @@ body{
     display: block;
     overflow-y: auto;
 }
+
+.item{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: aquamarine;
+    /* border: 0.5px solid black; */
+}
+
+.check{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check:hover{
+    background-color: greenyellow;
+}
+
+.task{
+    height: 40px;
+    width: 84%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(254, 189, 69); */
+    font-size: 20px;
+}
+
+
+
+.cut{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
+    width: 50px;
+}
+
+.cut:hover{
+    background-color: red;
+}
